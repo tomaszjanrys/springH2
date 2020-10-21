@@ -9,4 +9,6 @@ class SimpleController {
     fun getInfo():String{
         return "info"
     }
+    @RequestMapping("tomek")
+    fun getIndex() = "index"
 }
